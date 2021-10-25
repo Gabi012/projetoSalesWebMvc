@@ -44,7 +44,7 @@ namespace SaleWebMvc
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseExceptionHandler("/Home/Error"); 
                 app.UseHsts();
             }
 
